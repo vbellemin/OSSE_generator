@@ -65,8 +65,6 @@ ssh_bm = ssh_bm.chunk({'longitude':5*48,'latitude':5*48,'time':-1})
 
 def save_bm_hf(_ssh_dedac,_ssh_bm,dir_output):
     
-
-
     _ssh_bm = _ssh_bm.load()
     _ssh_hf = _ssh_dedac - _ssh_bm
 

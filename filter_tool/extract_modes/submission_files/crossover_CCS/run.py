@@ -1,3 +1,10 @@
+# %% [markdown]
+# # Filtering internal tide modes 
+
+# %% [markdown]
+# This notebook aims at filtering Internal Tide modes.
+
+# %%
 import numpy as np
 import matplotlib.pyplot as plt
 import xarray as xr
@@ -9,7 +16,12 @@ from math import *
 from dask import delayed,compute
 from joblib import Parallel
 from joblib import delayed as jb_delayed
+from datetime import datetime
 
+# %% [markdown]
+# # Functions 
+
+# %%
 def create_cartesian_grid (latitude,longitude,dx):
     """ 
     Creates a cartesian grid (regular in distance, kilometers) from a geodesic latitude, longitude grid. 
@@ -55,7 +67,9 @@ def create_cartesian_grid (latitude,longitude,dx):
         ENSLON2D[i,:]=np.concatenate((lon_left,lon_right))
 
     return ENSLAT2D, ENSLON2D, ENSLAT2D.shape[0], ENSLAT2D.shape[1]
-    
+
+
+# %%
 def bandpass(wavenumbers,nx,ny,wavenum2D):
     _bandpass = np.zeros((3*ny,3*nx))
     for i in range(3*ny):
@@ -64,6 +78,7 @@ def bandpass(wavenumbers,nx,ny,wavenum2D):
                 _bandpass[i,j] = 1
     return _bandpass
 
+# %%
 def extend(ssh,nx,ny):
     ssh_extended = np.empty((3*ny,3*nx))
     ssh_extended[ny:2*ny,nx:2*nx] = +ssh
@@ -73,6 +88,7 @@ def extend(ssh,nx,ny):
     ssh_extended[:,2*nx:3*nx] = ssh_extended[:,nx:2*nx][:,::-1]
     return ssh_extended
 
+# %%
 def gaspari_cohn(array,distance,center):
     """
     NAME 
@@ -107,6 +123,7 @@ def gaspari_cohn(array,distance,center):
         #    gp = gp[0]
     return gp
 
+# %%
 def create_spatial_window(nx,ny):
     result = np.ones((3*ny,3*nx))
     
@@ -127,6 +144,7 @@ def create_spatial_window(nx,ny):
 
     return result 
 
+# %%
 def extract_it_mode(ssh0,window,dx,bandpass_mode_1,bandpass_mode_2,bandpass_mode_3):
 
     nx = ssh0.shape[1]
@@ -150,13 +168,13 @@ def extract_it_mode(ssh0,window,dx,bandpass_mode_1,bandpass_mode_2,bandpass_mode
 
     return ssh_filtered_1, ssh_filtered_2, ssh_filtered_3
 
-def create_it_mode(date):
 
-    ds = xr.open_dataset("/bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_"+date.astype('str').replace('-','')+".nc")
-    #mask = np.load("/bettik/bellemva/MITgcm/mask/mask_MITgcm_nobay.npy")
+# %%
+def create_it_mode(array,k):
 
-    ssh_it = ds.ssh_it.sel(longitude = slice(185,205),latitude=slice(15,35),drop=True)
-    ssh_it = ssh_it.load().chunk({'time':1})
+    ssh_it = array.load().chunk({'time':1})
+
+    mask = np.isnan(ssh_it[0,:,:].values)
 
     # DATA PROCESSING # 
 
@@ -178,7 +196,7 @@ def create_it_mode(date):
     array_cart_ssh = ssh_it_filled.interp(latitude=('z',ENSLAT2D.flatten()),
                                         longitude=('z',ENSLON2D.flatten()),
                                         ).values
-
+    
     # INTERPOLATION OF NaNs # 
     x_axis = Axis(np.arange(i_lon))
     y_axis = Axis(np.arange(i_lat))
@@ -199,10 +217,10 @@ def create_it_mode(date):
                             )).chunk({'time':1})
     
     # PARAMETERS FOR MODE FILTERING # 
-    k1 = 0.0070
-    k2 = 0.0126
-    k3 = 0.0191
-    k4 = 0.0269
+    k1 = k[0]
+    k2 = k[1]
+    k3 = k[2]
+    k4 = k[3]
 
     nx = i_lon
     ny = i_lat
@@ -251,8 +269,6 @@ def create_it_mode(date):
     ssh_it2 = ssh_it.copy(deep=True,data=geo_it2).chunk({'time':1})
     ssh_it3 = ssh_it.copy(deep=True,data=geo_it3).chunk({'time':1})
 
-    mask = xr.open_dataset("/bettik/bellemva/MITgcm/mask/mask.nc").sel(longitude = slice(185,205),latitude=slice(15,35),drop=True).mask.values
-
     ssh_it1 = ssh_it1.where(mask==False,np.nan)
     ssh_it2 = ssh_it2.where(mask==False,np.nan)
     ssh_it3 = ssh_it3.where(mask==False,np.nan)
@@ -261,16 +277,23 @@ def create_it_mode(date):
     ssh_it2 = ssh_it2.rename("ssh_it2")
     ssh_it3 = ssh_it3.rename("ssh_it3")
 
-    ds_ssh_it = xr.Dataset(data_vars={"ssh_it1" : ssh_it1,
-                                  "ssh_it2" : ssh_it2,
-                                  "ssh_it3" : ssh_it3,
-                                  })
+    return ssh_it1, ssh_it2, ssh_it3
 
-    ds_ssh_it.to_netcdf("/bettik/bellemva/MITgcm/MITgcm_it/by_mode/MITgcm_it_"+date.astype('str').replace('-','')+".nc")
+# %%
+k = [0.0070,0.0126,0.0191,0.0269] # filtering parameters for CCS & hawaii 
+#k = [0.00577,0.01215,0.01852,0.02488] # filtering parameters for the two crossovers (except for CCS)
 
-array_date = np.arange(np.datetime64("2012-06-01"),np.datetime64("2012-07-01"),np.timedelta64(1,'D'))
+
+array_date = np.arange(np.datetime64("2012-07-07"),np.datetime64("2012-08-01"),np.timedelta64(1,'D'))
+zone = "crossover_CCS"
 
 for date in array_date:
-    create_it_mode(date)
+    ds = xr.open_dataset("/bettik/bellemva/MITgcm/MITgcm_it/"+zone+"/MITgcm_it_"+date.astype('str').replace('-','')+".nc")
+    ssh_it1, ssh_it2, ssh_it3 = create_it_mode(ds.ssh_it_tot,k)
+    ds["ssh_it1"] = ssh_it1
+    ds["ssh_it2"] = ssh_it2
+    ds["ssh_it3"] = ssh_it3
+    ds.to_netcdf("/bettik/bellemva/MITgcm/MITgcm_it/"+zone+"_bis"+"/MITgcm_it_"+date.astype('str').replace('-','')+".nc")
     print(date)
+
 
