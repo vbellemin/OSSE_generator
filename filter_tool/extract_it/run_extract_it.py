@@ -204,25 +204,10 @@ idx_ocean = np.where(np.invert(np.isnan(ds.ssh_igw[0,:,:].values))) # indexes of
 
 print(datetime.now(),"starting parallel computing")
 
-ssh_it_flat = np.array(Parallel(n_jobs=34,backend='multiprocessing')(jb_delayed(extract_it)(ds.ssh_igw[:,i,j],wint,H) for i,j in zip(idx_ocean[0][:34],idx_ocean[1][:34])))
+ssh_it_flat = np.array(Parallel(n_jobs=32,backend='multiprocessing')(jb_delayed(extract_it)(ds.ssh_igw[:,i,j],wint,H) for i,j in zip(idx_ocean[0][:34],idx_ocean[1][:34])))
 
 print(datetime.now(),ssh_it_flat)
 
 
 
 
-##### TRYING PARALLELIZATION #####
-"""
-import time 
-from datetime import datetime 
-time0 = datetime.now()
-
-def func(i):
-    time.sleep(10)
-    return i 
-
-Parallel(n_jobs=64,backend='multiprocessing')(jb_delayed(func)(i) for i in range(64))
-
-print(datetime.now()-time0)
-"""
-##################################
