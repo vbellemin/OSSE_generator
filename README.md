@@ -2,13 +2,13 @@
 
 ## Context
 
-The SWOT mission will enhance ocean dynamics observation to sub-mesoscale signals (<50 km) with its wide-swath measurement capability, providing 2 km resolution SSH data. At these fine scales, Sea Surface Height (SSH) variations are driven by Balanced Motions (BM) and Internal Tide (IT), requiring separation of these influences for effective use. The MEOM team at IGE, in collaboration with Datlas, is developing a method to separate BM and IT using a data assimilation system. The South-West Tropical Pacific, especially around French New-Caledonia, is a key study area due to strong IT generation. An internship will explore the 4D-var method to reconstruct mesoscale ocean dynamics using SWOT data.
+The SWOT mission will enhance ocean dynamics observation to sub-mesoscale signals (<50 km) with its wide-swath measurement capability, providing 2 km resolution SSH data. At these fine scales, Sea Surface Height (SSH) variations are driven by Balanced Motions (BM) and Internal Tide (IT), requiring separation of these influences for effective use. The MEOM team at IGE, in collaboration with Datlas, is developing a method to separate BM and IT using a data assimilation system. The South-West Tropical Pacific, especially around French New-Caledonia, is a key study area due to strong IT generation. 
 
 More information: [Master 2 Internship - Spring 2024](https://github.com/vbellemin/2024-internship-caledo) 
 
 ## Approach
 
-In a nutshell, this project aims to develop an Observing System simulation Expeeriment for evaluating the effectiveness of Balanced Motion and Internal Tides reconstruction using spatially realistic Sea Surface Height (SSH) observations obtained by the SWOT mission in the Southwestern Tropical Pacific around New Caledonia and Nadir measurements.
+In a nutshell, this intership project aims to develop an Observing System simulation Expeeriment (OSSE) for evaluating the effectiveness of Balanced Motion and Internal Tides reconstruction using spatially realistic Sea Surface Height (SSH) observations obtained by the SWOT and Nadir observations in the Southwestern Tropical Pacific around New Caledonia.
 
 In this regard, the strategies taken by this challenge reflect both the scientific aspirations and the practical challenges encountered on the way that include:
 
@@ -17,9 +17,13 @@ In this regard, the strategies taken by this challenge reflect both the scientif
 - Extract the BM component from the adjusted CALEDO60 dataset using a temporal high-pass filter to isolate the barotropic tide.
 - Extract the Internal Gravity Waves from the adjusted CALEDO60 dataset using a spectral band filter designed to target the specific wave frequency.
 
+This steps follow the next scheme:
+
+![alt text](Images/nr_overview.png)
+
 The internship was divided into two phases, reflecting the progression from foundational learning to practical application, which go as follows:
 
-- Getting familiar with the New-Caledonia \ac{SSH} simulation CALEDO60 and Training on data processing and plotting.
+- Getting familiar with the New-Caledonia SSH simulation CALEDO60 and Training on data processing and plotting. 
 - Developing an OSSE in New-Caledonia with particular emphasis on refining the generation of the Nature Run observations.
 
 The work conducted so far has successfully led to the disentanglement of balanced and unbalanced motions through a series of sophisticated filtering techniques tailored to the CALEDO60 dataset. And adapting algorithms for coordinate interpolation, which had not been tested on this dataset before, posed significant challenges but is crucial for the implementation of the OSSE.
