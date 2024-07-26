@@ -1,3 +1,13 @@
+# MAPPING THE SURFACE MESOSCALE OCEAN DYNAMICS IN THE SOUTH-WEST TROPICAL PACIFIC OCEAN USING SWOT ALTIMETRY DATA
+
+## Context
+
+The SWOT mission will enhance ocean dynamics observation to sub-mesoscale signals (<50 km) with its wide-swath measurement capability, providing 2 km resolution SSH data. At these fine scales, Sea Surface Height (SSH) variations are driven by Balanced Motions (BM) and Internal Tide (IT), requiring separation of these influences for effective use. The MEOM team at IGE, in collaboration with Datlas, is developing a method to separate BM and IT using a data assimilation system. The South-West Tropical Pacific, especially around French New-Caledonia, is a key study area due to strong IT generation. An internship will explore the 4D-var method to reconstruct mesoscale ocean dynamics using SWOT data.
+
+More information: [Master 2 Internship - Spring 2024](https://github.com/vbellemin/2024-internship-caledo) 
+
+## Approach
+
 In a nutshell, this project aims to develop an Observing System simulation Expeeriment for evaluating the effectiveness of Balanced Motion and Internal Tides reconstruction using spatially realistic Sea Surface Height (SSH) observations obtained by the SWOT mission in the Southwestern Tropical Pacific around New Caledonia and Nadir measurements.
 
 In this regard, the strategies taken by this challenge reflect both the scientific aspirations and the practical challenges encountered on the way that include:
