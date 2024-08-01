@@ -41,10 +41,14 @@ This steps follow the next scheme:
 
 - **GEBCO**
   - Gradient plot for GEBCO's bathymetry.
+
 - **filter_tool**
+  
 - **Images**
   - Images for the README file
+
 - **interp_satellite_track**
+
 - **requierements.ipynb**
   - This file contains the libraries used across the all notebooks.
 
