@@ -1,30 +1,180 @@
-ncks -h -C -O -x -v ssh_it /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120601.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120601.nc 
-ncks -h -C -O -x -v ssh_it /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120602.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120602.nc 
-ncks -h -C -O -x -v ssh_it /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120603.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120603.nc 
-ncks -h -C -O -x -v ssh_it /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120604.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120604.nc 
-ncks -h -C -O -x -v ssh_it /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120605.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120605.nc 
-ncks -h -C -O -x -v ssh_it /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120606.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120606.nc 
-ncks -h -C -O -x -v ssh_it /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120607.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120607.nc 
-ncks -h -C -O -x -v ssh_it /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120608.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120608.nc 
-ncks -h -C -O -x -v ssh_it /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120609.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120609.nc 
-ncks -h -C -O -x -v ssh_it /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120610.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120610.nc 
-ncks -h -C -O -x -v ssh_it /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120611.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120611.nc 
-ncks -h -C -O -x -v ssh_it /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120612.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120612.nc 
-ncks -h -C -O -x -v ssh_it /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120613.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120613.nc 
-ncks -h -C -O -x -v ssh_it /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120614.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120614.nc 
-ncks -h -C -O -x -v ssh_it /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120615.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120615.nc 
-ncks -h -C -O -x -v ssh_it /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120616.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120616.nc 
-ncks -h -C -O -x -v ssh_it /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120617.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120617.nc 
-ncks -h -C -O -x -v ssh_it /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120618.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120618.nc 
-ncks -h -C -O -x -v ssh_it /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120619.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120619.nc 
-ncks -h -C -O -x -v ssh_it /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120620.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120620.nc 
-ncks -h -C -O -x -v ssh_it /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120621.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120621.nc 
-ncks -h -C -O -x -v ssh_it /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120622.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120622.nc 
-ncks -h -C -O -x -v ssh_it /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120623.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120623.nc 
-ncks -h -C -O -x -v ssh_it /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120624.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120624.nc 
-ncks -h -C -O -x -v ssh_it /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120625.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120625.nc 
-ncks -h -C -O -x -v ssh_it /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120626.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120626.nc 
-ncks -h -C -O -x -v ssh_it /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120627.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120627.nc 
-ncks -h -C -O -x -v ssh_it /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120628.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120628.nc 
-ncks -h -C -O -x -v ssh_it /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120629.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120629.nc 
-ncks -h -C -O -x -v ssh_it /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120630.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120630.nc 
+ncap2 -h -A -s "ssh_cor=ssh_dedac-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120802.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120802.nc 
+ncap2 -h -A -s "ssh_igw=ssh_hf-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120802.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120802.nc 
+ncap2 -h -A -s "ssh_cor=ssh_dedac-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120803.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120803.nc 
+ncap2 -h -A -s "ssh_igw=ssh_hf-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120803.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120803.nc 
+ncap2 -h -A -s "ssh_cor=ssh_dedac-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120804.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120804.nc 
+ncap2 -h -A -s "ssh_igw=ssh_hf-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120804.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120804.nc 
+ncap2 -h -A -s "ssh_cor=ssh_dedac-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120805.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120805.nc 
+ncap2 -h -A -s "ssh_igw=ssh_hf-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120805.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120805.nc 
+ncap2 -h -A -s "ssh_cor=ssh_dedac-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120806.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120806.nc 
+ncap2 -h -A -s "ssh_igw=ssh_hf-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120806.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120806.nc 
+ncap2 -h -A -s "ssh_cor=ssh_dedac-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120807.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120807.nc 
+ncap2 -h -A -s "ssh_igw=ssh_hf-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120807.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120807.nc 
+ncap2 -h -A -s "ssh_cor=ssh_dedac-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120808.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120808.nc 
+ncap2 -h -A -s "ssh_igw=ssh_hf-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120808.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120808.nc 
+ncap2 -h -A -s "ssh_cor=ssh_dedac-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120809.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120809.nc 
+ncap2 -h -A -s "ssh_igw=ssh_hf-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120809.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120809.nc 
+ncap2 -h -A -s "ssh_cor=ssh_dedac-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120810.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120810.nc 
+ncap2 -h -A -s "ssh_igw=ssh_hf-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120810.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120810.nc 
+ncap2 -h -A -s "ssh_cor=ssh_dedac-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120811.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120811.nc 
+ncap2 -h -A -s "ssh_igw=ssh_hf-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120811.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120811.nc 
+ncap2 -h -A -s "ssh_cor=ssh_dedac-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120812.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120812.nc 
+ncap2 -h -A -s "ssh_igw=ssh_hf-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120812.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120812.nc 
+ncap2 -h -A -s "ssh_cor=ssh_dedac-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120813.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120813.nc 
+ncap2 -h -A -s "ssh_igw=ssh_hf-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120813.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120813.nc 
+ncap2 -h -A -s "ssh_cor=ssh_dedac-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120814.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120814.nc 
+ncap2 -h -A -s "ssh_igw=ssh_hf-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120814.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120814.nc 
+ncap2 -h -A -s "ssh_cor=ssh_dedac-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120815.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120815.nc 
+ncap2 -h -A -s "ssh_igw=ssh_hf-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120815.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120815.nc 
+ncap2 -h -A -s "ssh_cor=ssh_dedac-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120816.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120816.nc 
+ncap2 -h -A -s "ssh_igw=ssh_hf-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120816.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120816.nc 
+ncap2 -h -A -s "ssh_cor=ssh_dedac-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120817.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120817.nc 
+ncap2 -h -A -s "ssh_igw=ssh_hf-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120817.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120817.nc 
+ncap2 -h -A -s "ssh_cor=ssh_dedac-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120818.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120818.nc 
+ncap2 -h -A -s "ssh_igw=ssh_hf-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120818.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120818.nc 
+ncap2 -h -A -s "ssh_cor=ssh_dedac-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120819.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120819.nc 
+ncap2 -h -A -s "ssh_igw=ssh_hf-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120819.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120819.nc 
+ncap2 -h -A -s "ssh_cor=ssh_dedac-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120820.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120820.nc 
+ncap2 -h -A -s "ssh_igw=ssh_hf-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120820.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120820.nc 
+ncap2 -h -A -s "ssh_cor=ssh_dedac-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120821.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120821.nc 
+ncap2 -h -A -s "ssh_igw=ssh_hf-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120821.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120821.nc 
+ncap2 -h -A -s "ssh_cor=ssh_dedac-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120822.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120822.nc 
+ncap2 -h -A -s "ssh_igw=ssh_hf-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120822.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120822.nc 
+ncap2 -h -A -s "ssh_cor=ssh_dedac-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120823.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120823.nc 
+ncap2 -h -A -s "ssh_igw=ssh_hf-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120823.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120823.nc 
+ncap2 -h -A -s "ssh_cor=ssh_dedac-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120824.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120824.nc 
+ncap2 -h -A -s "ssh_igw=ssh_hf-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120824.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120824.nc 
+ncap2 -h -A -s "ssh_cor=ssh_dedac-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120825.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120825.nc 
+ncap2 -h -A -s "ssh_igw=ssh_hf-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120825.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120825.nc 
+ncap2 -h -A -s "ssh_cor=ssh_dedac-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120826.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120826.nc 
+ncap2 -h -A -s "ssh_igw=ssh_hf-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120826.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120826.nc 
+ncap2 -h -A -s "ssh_cor=ssh_dedac-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120827.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120827.nc 
+ncap2 -h -A -s "ssh_igw=ssh_hf-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120827.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120827.nc 
+ncap2 -h -A -s "ssh_cor=ssh_dedac-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120828.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120828.nc 
+ncap2 -h -A -s "ssh_igw=ssh_hf-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120828.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120828.nc 
+ncap2 -h -A -s "ssh_cor=ssh_dedac-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120829.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120829.nc 
+ncap2 -h -A -s "ssh_igw=ssh_hf-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120829.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120829.nc 
+ncap2 -h -A -s "ssh_cor=ssh_dedac-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120830.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120830.nc 
+ncap2 -h -A -s "ssh_igw=ssh_hf-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120830.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120830.nc 
+ncap2 -h -A -s "ssh_cor=ssh_dedac-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120831.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120831.nc 
+ncap2 -h -A -s "ssh_igw=ssh_hf-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120831.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120831.nc 
+ncap2 -h -A -s "ssh_cor=ssh_dedac-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120901.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120901.nc 
+ncap2 -h -A -s "ssh_igw=ssh_hf-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120901.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120901.nc 
+ncap2 -h -A -s "ssh_cor=ssh_dedac-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120902.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120902.nc 
+ncap2 -h -A -s "ssh_igw=ssh_hf-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120902.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120902.nc 
+ncap2 -h -A -s "ssh_cor=ssh_dedac-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120903.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120903.nc 
+ncap2 -h -A -s "ssh_igw=ssh_hf-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120903.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120903.nc 
+ncap2 -h -A -s "ssh_cor=ssh_dedac-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120904.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120904.nc 
+ncap2 -h -A -s "ssh_igw=ssh_hf-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120904.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120904.nc 
+ncap2 -h -A -s "ssh_cor=ssh_dedac-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120905.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120905.nc 
+ncap2 -h -A -s "ssh_igw=ssh_hf-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120905.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120905.nc 
+ncap2 -h -A -s "ssh_cor=ssh_dedac-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120906.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120906.nc 
+ncap2 -h -A -s "ssh_igw=ssh_hf-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120906.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120906.nc 
+ncap2 -h -A -s "ssh_cor=ssh_dedac-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120907.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120907.nc 
+ncap2 -h -A -s "ssh_igw=ssh_hf-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120907.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120907.nc 
+ncap2 -h -A -s "ssh_cor=ssh_dedac-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120908.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120908.nc 
+ncap2 -h -A -s "ssh_igw=ssh_hf-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120908.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120908.nc 
+ncap2 -h -A -s "ssh_cor=ssh_dedac-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120909.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120909.nc 
+ncap2 -h -A -s "ssh_igw=ssh_hf-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120909.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120909.nc 
+ncap2 -h -A -s "ssh_cor=ssh_dedac-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120910.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120910.nc 
+ncap2 -h -A -s "ssh_igw=ssh_hf-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120910.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120910.nc 
+ncap2 -h -A -s "ssh_cor=ssh_dedac-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120911.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120911.nc 
+ncap2 -h -A -s "ssh_igw=ssh_hf-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120911.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120911.nc 
+ncap2 -h -A -s "ssh_cor=ssh_dedac-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120912.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120912.nc 
+ncap2 -h -A -s "ssh_igw=ssh_hf-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120912.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120912.nc 
+ncap2 -h -A -s "ssh_cor=ssh_dedac-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120913.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120913.nc 
+ncap2 -h -A -s "ssh_igw=ssh_hf-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120913.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120913.nc 
+ncap2 -h -A -s "ssh_cor=ssh_dedac-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120914.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120914.nc 
+ncap2 -h -A -s "ssh_igw=ssh_hf-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120914.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120914.nc 
+ncap2 -h -A -s "ssh_cor=ssh_dedac-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120915.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120915.nc 
+ncap2 -h -A -s "ssh_igw=ssh_hf-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120915.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120915.nc 
+ncap2 -h -A -s "ssh_cor=ssh_dedac-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120916.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120916.nc 
+ncap2 -h -A -s "ssh_igw=ssh_hf-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120916.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120916.nc 
+ncap2 -h -A -s "ssh_cor=ssh_dedac-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120917.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120917.nc 
+ncap2 -h -A -s "ssh_igw=ssh_hf-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120917.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120917.nc 
+ncap2 -h -A -s "ssh_cor=ssh_dedac-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120918.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120918.nc 
+ncap2 -h -A -s "ssh_igw=ssh_hf-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120918.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120918.nc 
+ncap2 -h -A -s "ssh_cor=ssh_dedac-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120919.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120919.nc 
+ncap2 -h -A -s "ssh_igw=ssh_hf-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120919.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120919.nc 
+ncap2 -h -A -s "ssh_cor=ssh_dedac-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120920.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120920.nc 
+ncap2 -h -A -s "ssh_igw=ssh_hf-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120920.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120920.nc 
+ncap2 -h -A -s "ssh_cor=ssh_dedac-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120921.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120921.nc 
+ncap2 -h -A -s "ssh_igw=ssh_hf-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120921.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120921.nc 
+ncap2 -h -A -s "ssh_cor=ssh_dedac-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120922.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120922.nc 
+ncap2 -h -A -s "ssh_igw=ssh_hf-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120922.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120922.nc 
+ncap2 -h -A -s "ssh_cor=ssh_dedac-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120923.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120923.nc 
+ncap2 -h -A -s "ssh_igw=ssh_hf-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120923.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120923.nc 
+ncap2 -h -A -s "ssh_cor=ssh_dedac-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120924.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120924.nc 
+ncap2 -h -A -s "ssh_igw=ssh_hf-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120924.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120924.nc 
+ncap2 -h -A -s "ssh_cor=ssh_dedac-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120925.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120925.nc 
+ncap2 -h -A -s "ssh_igw=ssh_hf-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120925.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120925.nc 
+ncap2 -h -A -s "ssh_cor=ssh_dedac-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120926.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120926.nc 
+ncap2 -h -A -s "ssh_igw=ssh_hf-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120926.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120926.nc 
+ncap2 -h -A -s "ssh_cor=ssh_dedac-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120927.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120927.nc 
+ncap2 -h -A -s "ssh_igw=ssh_hf-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120927.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120927.nc 
+ncap2 -h -A -s "ssh_cor=ssh_dedac-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120928.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120928.nc 
+ncap2 -h -A -s "ssh_igw=ssh_hf-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120928.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120928.nc 
+ncap2 -h -A -s "ssh_cor=ssh_dedac-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120929.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120929.nc 
+ncap2 -h -A -s "ssh_igw=ssh_hf-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120929.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120929.nc 
+ncap2 -h -A -s "ssh_cor=ssh_dedac-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120930.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120930.nc 
+ncap2 -h -A -s "ssh_igw=ssh_hf-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120930.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20120930.nc 
+ncap2 -h -A -s "ssh_cor=ssh_dedac-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121001.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121001.nc 
+ncap2 -h -A -s "ssh_igw=ssh_hf-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121001.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121001.nc 
+ncap2 -h -A -s "ssh_cor=ssh_dedac-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121002.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121002.nc 
+ncap2 -h -A -s "ssh_igw=ssh_hf-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121002.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121002.nc 
+ncap2 -h -A -s "ssh_cor=ssh_dedac-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121003.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121003.nc 
+ncap2 -h -A -s "ssh_igw=ssh_hf-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121003.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121003.nc 
+ncap2 -h -A -s "ssh_cor=ssh_dedac-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121004.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121004.nc 
+ncap2 -h -A -s "ssh_igw=ssh_hf-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121004.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121004.nc 
+ncap2 -h -A -s "ssh_cor=ssh_dedac-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121005.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121005.nc 
+ncap2 -h -A -s "ssh_igw=ssh_hf-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121005.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121005.nc 
+ncap2 -h -A -s "ssh_cor=ssh_dedac-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121006.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121006.nc 
+ncap2 -h -A -s "ssh_igw=ssh_hf-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121006.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121006.nc 
+ncap2 -h -A -s "ssh_cor=ssh_dedac-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121007.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121007.nc 
+ncap2 -h -A -s "ssh_igw=ssh_hf-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121007.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121007.nc 
+ncap2 -h -A -s "ssh_cor=ssh_dedac-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121008.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121008.nc 
+ncap2 -h -A -s "ssh_igw=ssh_hf-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121008.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121008.nc 
+ncap2 -h -A -s "ssh_cor=ssh_dedac-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121009.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121009.nc 
+ncap2 -h -A -s "ssh_igw=ssh_hf-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121009.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121009.nc 
+ncap2 -h -A -s "ssh_cor=ssh_dedac-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121010.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121010.nc 
+ncap2 -h -A -s "ssh_igw=ssh_hf-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121010.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121010.nc 
+ncap2 -h -A -s "ssh_cor=ssh_dedac-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121011.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121011.nc 
+ncap2 -h -A -s "ssh_igw=ssh_hf-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121011.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121011.nc 
+ncap2 -h -A -s "ssh_cor=ssh_dedac-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121012.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121012.nc 
+ncap2 -h -A -s "ssh_igw=ssh_hf-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121012.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121012.nc 
+ncap2 -h -A -s "ssh_cor=ssh_dedac-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121013.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121013.nc 
+ncap2 -h -A -s "ssh_igw=ssh_hf-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121013.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121013.nc 
+ncap2 -h -A -s "ssh_cor=ssh_dedac-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121014.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121014.nc 
+ncap2 -h -A -s "ssh_igw=ssh_hf-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121014.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121014.nc 
+ncap2 -h -A -s "ssh_cor=ssh_dedac-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121015.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121015.nc 
+ncap2 -h -A -s "ssh_igw=ssh_hf-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121015.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121015.nc 
+ncap2 -h -A -s "ssh_cor=ssh_dedac-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121016.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121016.nc 
+ncap2 -h -A -s "ssh_igw=ssh_hf-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121016.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121016.nc 
+ncap2 -h -A -s "ssh_cor=ssh_dedac-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121017.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121017.nc 
+ncap2 -h -A -s "ssh_igw=ssh_hf-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121017.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121017.nc 
+ncap2 -h -A -s "ssh_cor=ssh_dedac-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121018.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121018.nc 
+ncap2 -h -A -s "ssh_igw=ssh_hf-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121018.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121018.nc 
+ncap2 -h -A -s "ssh_cor=ssh_dedac-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121019.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121019.nc 
+ncap2 -h -A -s "ssh_igw=ssh_hf-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121019.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121019.nc 
+ncap2 -h -A -s "ssh_cor=ssh_dedac-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121020.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121020.nc 
+ncap2 -h -A -s "ssh_igw=ssh_hf-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121020.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121020.nc 
+ncap2 -h -A -s "ssh_cor=ssh_dedac-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121021.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121021.nc 
+ncap2 -h -A -s "ssh_igw=ssh_hf-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121021.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121021.nc 
+ncap2 -h -A -s "ssh_cor=ssh_dedac-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121022.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121022.nc 
+ncap2 -h -A -s "ssh_igw=ssh_hf-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121022.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121022.nc 
+ncap2 -h -A -s "ssh_cor=ssh_dedac-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121023.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121023.nc 
+ncap2 -h -A -s "ssh_igw=ssh_hf-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121023.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121023.nc 
+ncap2 -h -A -s "ssh_cor=ssh_dedac-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121024.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121024.nc 
+ncap2 -h -A -s "ssh_igw=ssh_hf-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121024.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121024.nc 
+ncap2 -h -A -s "ssh_cor=ssh_dedac-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121025.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121025.nc 
+ncap2 -h -A -s "ssh_igw=ssh_hf-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121025.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121025.nc 
+ncap2 -h -A -s "ssh_cor=ssh_dedac-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121026.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121026.nc 
+ncap2 -h -A -s "ssh_igw=ssh_hf-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121026.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121026.nc 
+ncap2 -h -A -s "ssh_cor=ssh_dedac-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121027.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121027.nc 
+ncap2 -h -A -s "ssh_igw=ssh_hf-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121027.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121027.nc 
+ncap2 -h -A -s "ssh_cor=ssh_dedac-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121028.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121028.nc 
+ncap2 -h -A -s "ssh_igw=ssh_hf-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121028.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121028.nc 
+ncap2 -h -A -s "ssh_cor=ssh_dedac-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121029.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121029.nc 
+ncap2 -h -A -s "ssh_igw=ssh_hf-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121029.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121029.nc 
+ncap2 -h -A -s "ssh_cor=ssh_dedac-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121030.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121030.nc 
+ncap2 -h -A -s "ssh_igw=ssh_hf-ssh_bar" /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121030.nc /bettik/bellemva/MITgcm/MITgcm_filtered_final/MITgcm_filt_20121030.nc 
